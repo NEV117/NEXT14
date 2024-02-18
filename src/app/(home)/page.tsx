@@ -1,16 +1,16 @@
-import { MainProducts } from "app/components/home/MainProducts";
-import { Metadata } from "next";
+import { MainProducts } from "app/components/home/MainProducts"
+import { Metadata } from "next"
 
-export const metada: Metadata ={
-  title:"Future World",
-  description: "Welcome to the future word store blha blha blah",
-  keywords: ["ecomerce", "future", "world", "tecnologies"],
+export const metadata: Metadata = {
+  title: "✨ Future world",
+  description: "Welcome to the future world, an ecommerce from other century",
+  keywords: ["ecommerce", "future", "world","technology"],
 }
 
 export default function Home() {
   return (
     <main>
-      <MainProducts/>
+      <MainProducts />
     </main>
-  );
+  )
 }

@@ -1,4 +1,5 @@
-import { getProducts } from "app/services/shopify";
+
+import { getProducts } from "app/services/shopify/products";
 import { json } from "stream/consumers"
 
 export async function GET(){
